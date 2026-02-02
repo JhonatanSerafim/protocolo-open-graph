@@ -3,22 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudo do Protocolo Open Graph</title>
+    <title>Dev Serafim - Estudo do Protocolo Open Graph</title>
     
-    <!-- Meta Tags Open Graph -->
-    <meta property="og:title" content="Estudo do Protocolo Open Graph">
+    <!-- ============================================ -->
+    <!-- FACEBOOK & WHATSAPP - Open Graph Protocol -->
+    <!-- Ambos usam as mesmas meta tags Open Graph -->
+    <!-- ============================================ -->
+    <meta property="og:title" content="Dev Serafim - Estudo do Protocolo Open Graph">
     <meta property="og:description" content="Uma página de exemplo para estudar como o protocolo Open Graph funciona e controla o compartilhamento em redes sociais.">
-    <meta property="og:image" content="https://via.placeholder.com/1200x630/4A90E2/ffffff?text=Open+Graph+Protocol">
+    <meta property="og:image" content="img/open_graph_banner.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Estudo do Protocolo Open Graph">
     <meta property="og:url" content="https://exemplo.com/open-graph">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pt_BR">
-    <meta property="og:site_name" content="Estudos de Casos">
+    <meta property="og:site_name" content="Dev Serafim">
     
-    <!-- Meta Tags Twitter Card (opcional, mas recomendado) -->
+    <!-- ============================================ -->
+    <!-- INSTAGRAM -->
+    <!-- Instagram usa Open Graph mas com limitações -->
+    <!-- Não mostra preview em posts, apenas em stories com link -->
+    <!-- ============================================ -->
+    <!-- As tags og: acima já funcionam para Instagram -->
+    <!-- Instagram prefere imagens quadradas (1:1) ou verticais (4:5) -->
+    <meta property="og:image:secure_url" content="img/open_graph_banner.webp">
+    
+    <!-- ============================================ -->
+    <!-- TIKTOK -->
+    <!-- TikTok também usa Open Graph Protocol -->
+    <!-- Prefere imagens 1200x628px ou maiores -->
+    <!-- ============================================ -->
+    <!-- As tags og: acima já funcionam para TikTok -->
+    
+    <!-- ============================================ -->
+    <!-- TWITTER/X - Twitter Card -->
+    <!-- Twitter tem seu próprio protocolo de cards -->
+    <!-- ============================================ -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Estudo do Protocolo Open Graph">
+    <meta name="twitter:title" content="Dev Serafim - Estudo do Protocolo Open Graph">
     <meta name="twitter:description" content="Uma página de exemplo para estudar como o protocolo Open Graph funciona.">
-    <meta name="twitter:image" content="https://via.placeholder.com/1200x630/4A90E2/ffffff?text=Open+Graph+Protocol">
+    <meta name="twitter:image" content="img/open_graph_banner.webp">
+    <meta name="twitter:site" content="@devserafim">
+    <meta name="twitter:creator" content="@devserafim">
+    
+    <!-- ============================================ -->
+    <!-- TAGS ADICIONAIS RECOMENDADAS -->
+    <!-- ============================================ -->
+    <!-- Meta tags HTML padrão (SEO) -->
+    <meta name="description" content="Uma página de exemplo para estudar como o protocolo Open Graph funciona e controla o compartilhamento em redes sociais.">
+    <meta name="keywords" content="open graph, meta tags, redes sociais, compartilhamento">
+    <meta name="author" content="Dev Serafim">
     
     <link rel="stylesheet" href="style.css">
 </head>
@@ -68,7 +103,7 @@
                 <p style="margin-bottom: 15px; color: #666;">Assim sua página aparecerá quando compartilhada no Facebook, LinkedIn, etc:</p>
                 
                 <div class="card-preview">
-                    <img src="https://via.placeholder.com/1200x630/4A90E2/ffffff?text=Open+Graph+Protocol" alt="Preview Open Graph">
+                    <img src="img/open_graph_banner.webp" alt="Preview Open Graph">
                     <div class="card-content">
                         <h4>Estudo do Protocolo Open Graph</h4>
                         <p>Uma página de exemplo para estudar como o protocolo Open Graph funciona e controla o compartilhamento em redes sociais.</p>
