@@ -11,13 +11,13 @@
     <!-- ============================================ -->
     <meta property="og:url" content="https://protocolo-open-graph.vercel.app/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="TESTE V4 - Nova Imagem Aviator">
-    <meta property="og:description" content="Testando nova imagem com dimensões ideais (1920x831px) para Open Graph no WhatsApp e outras redes sociais.">
-    <meta property="og:image" content="https://protocolo-open-graph.vercel.app/img/cashback%20de%20aviator%20-%20desk.png">
-    <meta property="og:image:secure_url" content="https://protocolo-open-graph.vercel.app/img/cashback%20de%20aviator%20-%20desk.png">
+    <meta property="og:title" content="TESTE V6 - Imagem Reals 1080x1080">
+    <meta property="og:description" content="Testando imagem quadrada maior (1080x1080px) para verificar se funciona melhor no WhatsApp.">
+    <meta property="og:image" content="https://protocolo-open-graph.vercel.app/img/reals.png?v=1">
+    <meta property="og:image:secure_url" content="https://protocolo-open-graph.vercel.app/img/reals.png?v=1">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1920">
-    <meta property="og:image:height" content="831">
+    <meta property="og:image:width" content="1080">
+    <meta property="og:image:height" content="1080">
     <meta property="og:image:alt" content="Estudo do Protocolo Open Graph">
     <meta property="og:locale" content="pt_BR">
     <meta property="og:site_name" content="Protocolo Open Graph">
@@ -42,9 +42,9 @@
     <!-- Twitter tem seu próprio protocolo de cards -->
     <!-- ============================================ -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="TESTE V4 - Nova Imagem Aviator">
-    <meta name="twitter:description" content="Testando nova imagem com dimensões ideais (1920x831px) para Open Graph no WhatsApp e outras redes sociais.">
-    <meta name="twitter:image" content="https://protocolo-open-graph.vercel.app/img/cashback%20de%20aviator%20-%20desk.png">
+    <meta name="twitter:title" content="TESTE V6 - Imagem Reals 1080x1080">
+    <meta name="twitter:description" content="Testando imagem quadrada maior (1080x1080px) para verificar se funciona melhor no WhatsApp.">
+    <meta name="twitter:image" content="https://protocolo-open-graph.vercel.app/img/reals.png?v=1">
     <meta name="twitter:site" content="@devserafim">
     <meta name="twitter:creator" content="@devserafim">
     
@@ -52,7 +52,7 @@
     <!-- TAGS ADICIONAIS RECOMENDADAS -->
     <!-- ============================================ -->
     <!-- Meta tags HTML padrão (SEO) -->
-    <meta name="description" content="Este é um teste de atualização. Se você está vendo este texto diferente, significa que o deploy funcionou corretamente.">
+    <meta name="description" content="Testando imagem quadrada maior (1080x1080px) para verificar se funciona melhor no WhatsApp.">
     <meta name="keywords" content="open graph, meta tags, redes sociais, compartilhamento">
     <meta name="author" content="Dev Serafim">
     
@@ -130,10 +130,23 @@
                     <p style="margin: 10px 0 0 0; color: #d32f2f; font-size: 0.9em;">⚠️ <strong>IMPORTANTE:</strong> Se a imagem não aparecer no Facebook Debugger, ela não aparecerá no WhatsApp!</p>
                 </div>
                 
-                <p><strong>2. LinkedIn Post Inspector:</strong></p>
+                <p><strong>2. WhatsApp - Solução Específica:</strong></p>
+                <div style="margin: 10px 0 20px 20px; padding: 12px; background: #e3f2fd; border-left: 3px solid #2196F3; border-radius: 4px;">
+                    <p style="margin: 0 0 8px 0; color: #1976D2; font-weight: bold; font-size: 0.95em;">💬 WhatsApp tem cache próprio e mais restritivo:</p>
+                    <ol style="margin: 0; padding-left: 20px; color: #333; line-height: 1.6;">
+                        <li><strong>Limpe o cache no Facebook Debugger</strong> (passo 1 acima) - faça isso várias vezes</li>
+                        <li><strong>Aguarde 10-15 minutos</strong> após limpar o cache do Facebook</li>
+                        <li><strong>Teste em um chat novo</strong> - não use o mesmo chat onde já compartilhou antes</li>
+                        <li><strong>Ou teste em outro número/dispositivo</strong> - WhatsApp pode ter cache por dispositivo</li>
+                        <li><strong>Use o link completo</strong> - copie e cole o link completo, não use o preview antigo</li>
+                    </ol>
+                    <p style="margin: 10px 0 0 0; color: #1976D2; font-size: 0.9em;">💡 <strong>Dica:</strong> Se funcionou no Facebook mas não no WhatsApp, é cache do WhatsApp. Pode levar até 24h para atualizar automaticamente.</p>
+                </div>
+                
+                <p><strong>3. LinkedIn Post Inspector:</strong></p>
                 <p style="margin: 10px 0 20px 0;">Acesse <a href="https://www.linkedin.com/post-inspector/" target="_blank" style="color: #4A90E2;">linkedin.com/post-inspector/</a></p>
                 
-                <p><strong>3. Twitter Card Validator:</strong></p>
+                <p><strong>4. Twitter Card Validator:</strong></p>
                 <p style="margin: 10px 0 20px 0;">Acesse <a href="https://cards-dev.twitter.com/validator" target="_blank" style="color: #4A90E2;">cards-dev.twitter.com/validator</a></p>
                 
                 <div style="margin-top: 30px; padding: 15px; background: #fff3cd; border-left: 4px solid #ffc107; border-radius: 4px;">
@@ -145,8 +158,12 @@
                         <li>✅ <strong>Dimensões atuais: 1920x831px</strong> - Excelente! Está acima do mínimo recomendado (1200x630px)</li>
                         <li>✅ Tamanho do arquivo: 602KB (dentro do limite de 8MB)</li>
                         <li>✅ Formato: PNG (correto para Open Graph)</li>
-                        <li>✅ Proporção: ~2.31:1 (ideal para previews sociais)</li>
-                        <li>💡 <strong>Dica:</strong> O WhatsApp pode levar até 24h para atualizar o cache. Use o Facebook Debugger para forçar atualização!</li>
+                        <li>⚠️ <strong>PROPORÇÃO: ~2.31:1</strong> - Esta proporção pode ser muito larga para WhatsApp!</li>
+                        <li>📐 <strong>Ideal para WhatsApp:</strong> 1200x630px (proporção 1.91:1) ou mais próxima de quadrada</li>
+                        <li>💡 <strong>Solução:</strong> Adicionei cache buster (?v=2) na URL da imagem para forçar atualização</li>
+                        <li>💡 <strong>WhatsApp específico:</strong> Se funcionou no Facebook mas não no WhatsApp, pode ser cache OU proporção muito larga</li>
+                        <li>🔄 <strong>Próximos passos:</strong> 1) Limpe cache no Facebook Debugger várias vezes, 2) Aguarde 15min, 3) Teste em chat NOVO no WhatsApp</li>
+                        <li>⏰ <strong>Dica:</strong> O WhatsApp pode levar até 24h para atualizar o cache automaticamente</li>
                     </ul>
                 </div>
             </div>
