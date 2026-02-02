@@ -9,16 +9,16 @@
     <!-- FACEBOOK & WHATSAPP - Open Graph Protocol -->
     <!-- Ambos usam as mesmas meta tags Open Graph -->
     <!-- ============================================ -->
-    <meta property="og:title" content="TESTE V3 - Texto Atualizado Agora">
-    <meta property="og:description" content="Este é um teste de atualização. Se você está vendo este texto diferente, significa que o deploy funcionou corretamente.">
-    <meta property="og:image" content="https://protocolo-open-graph.vercel.app/img/open_graph_banner.jpg">
-    <meta property="og:image:secure_url" content="https://protocolo-open-graph.vercel.app/img/open_graph_banner.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="640">
-    <meta property="og:image:height" content="427">
-    <meta property="og:image:alt" content="Estudo do Protocolo Open Graph">
     <meta property="og:url" content="https://protocolo-open-graph.vercel.app/">
     <meta property="og:type" content="website">
+    <meta property="og:title" content="TESTE V4 - Nova Imagem Aviator">
+    <meta property="og:description" content="Testando nova imagem com dimensões ideais (1920x831px) para Open Graph no WhatsApp e outras redes sociais.">
+    <meta property="og:image" content="https://protocolo-open-graph.vercel.app/img/cashback%20de%20aviator%20-%20desk.png">
+    <meta property="og:image:secure_url" content="https://protocolo-open-graph.vercel.app/img/cashback%20de%20aviator%20-%20desk.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1920">
+    <meta property="og:image:height" content="831">
+    <meta property="og:image:alt" content="Estudo do Protocolo Open Graph">
     <meta property="og:locale" content="pt_BR">
     <meta property="og:site_name" content="Protocolo Open Graph">
     
@@ -42,9 +42,9 @@
     <!-- Twitter tem seu próprio protocolo de cards -->
     <!-- ============================================ -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="TESTE V3 - Texto Atualizado Agora">
-    <meta name="twitter:description" content="Este é um teste de atualização. Se você está vendo este texto diferente, significa que o deploy funcionou corretamente.">
-    <meta name="twitter:image" content="https://protocolo-open-graph.vercel.app/img/open_graph_banner.jpg">
+    <meta name="twitter:title" content="TESTE V4 - Nova Imagem Aviator">
+    <meta name="twitter:description" content="Testando nova imagem com dimensões ideais (1920x831px) para Open Graph no WhatsApp e outras redes sociais.">
+    <meta name="twitter:image" content="https://protocolo-open-graph.vercel.app/img/cashback%20de%20aviator%20-%20desk.png">
     <meta name="twitter:site" content="@devserafim">
     <meta name="twitter:creator" content="@devserafim">
     
@@ -115,9 +115,20 @@
             
             <div class="og-section">
                 <h2>🔧 Como Testar</h2>
-                <p><strong>1. Facebook Sharing Debugger (IMPORTANTE para WhatsApp):</strong></p>
+                <p><strong>1. Facebook Sharing Debugger (OBRIGATÓRIO para WhatsApp):</strong></p>
                 <p style="margin: 10px 0 20px 0;">Acesse <a href="https://developers.facebook.com/tools/debug/" target="_blank" style="color: #4A90E2;">developers.facebook.com/tools/debug/</a></p>
-                <p style="margin: 10px 0 20px 20px; color: #d32f2f; font-size: 0.9em;">⚠️ Cole sua URL e clique em "Scrape Again" para limpar o cache!</p>
+                <div style="margin: 10px 0 20px 20px; padding: 10px; background: #f8f9fa; border-left: 3px solid #d32f2f; border-radius: 4px;">
+                    <p style="margin: 0 0 8px 0; color: #d32f2f; font-weight: bold; font-size: 0.95em;">📋 Passo a passo:</p>
+                    <ol style="margin: 0; padding-left: 20px; color: #333; line-height: 1.6;">
+                        <li>Cole a URL: <code style="background: #e9ecef; padding: 2px 6px; border-radius: 3px;">https://protocolo-open-graph.vercel.app/</code></li>
+                        <li>Clique em <strong>"Depurar"</strong> ou <strong>"Debug"</strong></li>
+                        <li>Verifique se a imagem aparece no preview</li>
+                        <li>Se não aparecer, clique em <strong>"Raspar Novamente"</strong> ou <strong>"Scrape Again"</strong> (várias vezes se necessário)</li>
+                        <li>Aguarde 2-3 minutos após limpar o cache</li>
+                        <li>Só então teste no WhatsApp</li>
+                    </ol>
+                    <p style="margin: 10px 0 0 0; color: #d32f2f; font-size: 0.9em;">⚠️ <strong>IMPORTANTE:</strong> Se a imagem não aparecer no Facebook Debugger, ela não aparecerá no WhatsApp!</p>
+                </div>
                 
                 <p><strong>2. LinkedIn Post Inspector:</strong></p>
                 <p style="margin: 10px 0 20px 0;">Acesse <a href="https://www.linkedin.com/post-inspector/" target="_blank" style="color: #4A90E2;">linkedin.com/post-inspector/</a></p>
@@ -131,9 +142,10 @@
                         <li>✅ URL da imagem deve ser absoluta (com https://) - <strong>CONFIGURADO</strong></li>
                         <li>✅ Imagem deve estar acessível publicamente - <strong>TESTADO E FUNCIONANDO</strong></li>
                         <li>⚠️ <strong>CRÍTICO:</strong> Limpe o cache no Facebook Sharing Debugger ANTES de testar no WhatsApp</li>
-                        <li>⚠️ Dimensões atuais: 640x427px (recomendado: 1200x630px para melhor visualização)</li>
-                        <li>✅ Tamanho do arquivo: 46KB (dentro do limite)</li>
-                        <li>✅ Formato: JPG (correto)</li>
+                        <li>✅ <strong>Dimensões atuais: 1920x831px</strong> - Excelente! Está acima do mínimo recomendado (1200x630px)</li>
+                        <li>✅ Tamanho do arquivo: 602KB (dentro do limite de 8MB)</li>
+                        <li>✅ Formato: PNG (correto para Open Graph)</li>
+                        <li>✅ Proporção: ~2.31:1 (ideal para previews sociais)</li>
                         <li>💡 <strong>Dica:</strong> O WhatsApp pode levar até 24h para atualizar o cache. Use o Facebook Debugger para forçar atualização!</li>
                     </ul>
                 </div>
