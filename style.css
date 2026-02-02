@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+.content {
+    padding: 40px;
+}
+
+.og-section {
+    background: #f8f9fa;
+    border-left: 4px solid #4A90E2;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.og-section h2 {
+    color: #357ABD;
+    margin-bottom: 15px;
+}
+
+.og-tag {
+    background: white;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.og-tag strong {
+    color: #E91E63;
+}
+
+.preview {
+    margin-top: 30px;
+    padding: 20px;
+    background: #e9ecef;
+    border-radius: 5px;
+}
+
+.preview h3 {
+    color: #357ABD;
+    margin-bottom: 15px;
+}
+
+.card-preview {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 500px;
+}
+
+.card-preview img {
+    width: 100%;
+    height: auto;
+}
+
+.card-preview .card-content {
+    padding: 15px;
+}
+
+.card-preview h4 {
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.card-preview p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.card-preview .url {
+    color: #999;
+    font-size: 0.8em;
+    margin-top: 8px;
+}
